@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		053648D020D120FC0029A769 /* PointsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 053648CF20D120FC0029A769 /* PointsTableViewCell.xib */; };
-		053648D220D121730029A769 /* PointsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053648D120D121730029A769 /* PointsTableViewCell.swift */; };
 		056B68B520AC31010009981D /* MinimumBetInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 056B68B420AC31010009981D /* MinimumBetInput.xib */; };
 		056B68EC20AED0130009981D /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B68EB20AED0130009981D /* PlayersViewController.swift */; };
 		056B68EE20AED0340009981D /* StakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B68ED20AED0340009981D /* StakeViewController.swift */; };
@@ -19,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		053648CF20D120FC0029A769 /* PointsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointsTableViewCell.xib; sourceTree = "<group>"; };
-		053648D120D121730029A769 /* PointsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsTableViewCell.swift; sourceTree = "<group>"; };
 		056B68B420AC31010009981D /* MinimumBetInput.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MinimumBetInput.xib; sourceTree = "<group>"; };
 		056B68EB20AED0130009981D /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		056B68ED20AED0340009981D /* StakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StakeViewController.swift; sourceTree = "<group>"; };
@@ -66,8 +62,6 @@
 				0579F1FB2099C306004FD79A /* AppDelegate.swift */,
 				056B68EB20AED0130009981D /* PlayersViewController.swift */,
 				0579F1FF2099C306004FD79A /* Main.storyboard */,
-				053648CF20D120FC0029A769 /* PointsTableViewCell.xib */,
-				053648D120D121730029A769 /* PointsTableViewCell.swift */,
 				056B68ED20AED0340009981D /* StakeViewController.swift */,
 				0579F2022099C309004FD79A /* Assets.xcassets */,
 				0579F2042099C309004FD79A /* LaunchScreen.storyboard */,
@@ -134,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				053648D020D120FC0029A769 /* PointsTableViewCell.xib in Resources */,
 				0579F2062099C309004FD79A /* LaunchScreen.storyboard in Resources */,
 				056B68B520AC31010009981D /* MinimumBetInput.xib in Resources */,
 				0579F2032099C309004FD79A /* Assets.xcassets in Resources */,
@@ -149,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				053648D220D121730029A769 /* PointsTableViewCell.swift in Sources */,
 				0579F1FC2099C306004FD79A /* AppDelegate.swift in Sources */,
 				056B68EC20AED0130009981D /* PlayersViewController.swift in Sources */,
 				056B68EE20AED0340009981D /* StakeViewController.swift in Sources */,

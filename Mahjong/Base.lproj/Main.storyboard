@@ -139,10 +139,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xja-SD-8ur">
-                                        <rect key="frame" x="0.0" y="30.5" width="180" height="75.5"/>
+                                        <rect key="frame" x="0.0" y="30.5" width="180" height="245.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HZa-ov-vuM">
-                                                <rect key="frame" x="0.0" y="15.5" width="140" height="44.5"/>
+                                                <rect key="frame" x="0.0" y="100.5" width="140" height="44.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="£" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4n-9r-6hP">
                                                         <rect key="frame" x="0.0" y="0.0" width="11" height="44.5"/>
@@ -163,50 +163,11 @@
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngj-yb-4J6">
-                                                <rect key="frame" x="150" y="23" width="30" height="30"/>
+                                                <rect key="frame" x="150" y="108" width="30" height="30"/>
                                                 <state key="normal" title="ok"/>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Nz7-1o-aFI" userLabel="preview points table">
-                                        <rect key="frame" x="0.0" y="116" width="180" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Zas-qj-LnB">
-                                            <size key="itemSize" width="50" height="50"/>
-                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        </collectionViewFlowLayout>
-                                        <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" id="dPg-ve-Xfo">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qk2-Wn-ekh">
-                                                            <rect key="frame" x="-12" y="9" width="42" height="21"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                </view>
-                                                <constraints>
-                                                    <constraint firstItem="qk2-Wn-ekh" firstAttribute="centerY" secondItem="dPg-ve-Xfo" secondAttribute="centerY" id="0gp-Yr-S6r"/>
-                                                    <constraint firstItem="qk2-Wn-ekh" firstAttribute="centerX" secondItem="dPg-ve-Xfo" secondAttribute="centerX" id="WkW-iD-h0T"/>
-                                                </constraints>
-                                            </collectionViewCell>
-                                        </cells>
-                                    </collectionView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pnw-I1-5w4">
-                                        <rect key="frame" x="0.0" y="176" width="180" height="100"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="Wjb-3S-w7a"/>
-                                        </constraints>
-                                    </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgV-Hg-Lgi">
                                         <rect key="frame" x="0.0" y="286" width="180" height="30"/>
                                         <state key="normal" title="Next"/>
@@ -223,9 +184,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sun-Su-lnm"/>
                     </view>
-                    <connections>
-                        <outlet property="pointsTable" destination="Nz7-1o-aFI" id="wWX-cf-WbN"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3o5-Nh-PqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
