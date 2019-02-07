@@ -1,3 +1,9 @@
 language: swift
 osx_image: xcode10
 script: echo "Hello World"
+before_install:
+  - gem install fastlane --no-ri --no-rdoc --no-document
+
+install: true
+script:
+  - fastlane gym
